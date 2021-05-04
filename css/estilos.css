@@ -201,7 +201,7 @@ section.right a {
 @media (min-width:800px)/*-------------------- desktop----------*/ {
   
     header {
-        height: 100px
+        height: 120px
     }
     div.logo {
         background: none;
