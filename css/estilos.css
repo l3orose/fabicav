@@ -18,7 +18,7 @@ header {
     
 }
 div.logo {
-    background-color: #aad9e1;
+    background-color: #224f70;;
     
 }
 header img {
@@ -56,7 +56,7 @@ nav li
     justify-content: center;
     display: flex;
     margin-bottom: 1rem;    
-    background-color: #aad9e1;
+    
     
 }
 section.presentacion {
@@ -131,7 +131,7 @@ footer {
     background-color: #224f70;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 18rem;
+    height: 20rem;
     padding: 2rem;
     font-size: 2rem;
     min-width: 350px;
