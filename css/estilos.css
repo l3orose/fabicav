@@ -64,17 +64,17 @@ section.presentacion {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 480px;
-    background-image: url(../img/slide1.jpeg);
+    
+    background-image: url(../img/fondo2.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     
     
 }
 section h1 {
     margin: 0 1rem;
-    color: aliceblue;
+    color: #043b7b;
+    font-weight: bold;
     font-size: 4rem;
     text-align: center;
     animation: fadein 1s;
@@ -152,6 +152,7 @@ footer section.left a  {
 footer p {
     font-weight: bold;
     font-size: 2rem;
+    color: #75a7e0;
 }
 section.right {
     display: flex;
@@ -161,7 +162,7 @@ section.right {
 section.right a {
     color: #75a7e0;
     text-decoration: none;
-    font-size: 2rem;
+    
 }
 @media (min-width:610px) /*-------------------- tablet----------*/
  {
@@ -195,9 +196,10 @@ section.right a {
     }
     section.left {
         margin-left: 1rem;
+        
     }
-    section.right a, .right p, .left a {
-        font-size: 2rem;
+    section.right a, .right p, .left a, .left p {
+        font-size: 2.3rem;
     }
 }
 @media (min-width:800px)/*-------------------- desktop----------*/ {
