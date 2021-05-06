@@ -292,11 +292,12 @@ opacity: .7;}
 footer {
     background-color: #224f70;
     display: grid;
-    grid-template-columns: 50% 50%;
-    height: 20rem;
+    grid-template-columns: 48% 52%;
+    height: 22rem;
     padding: 2rem;
-    font-size: 2.5rem;
-    min-width: 350px;
+    font-size: 1.8rem;
+    min-width: 380px;
+    width: 100%;
     
     
 }
@@ -304,7 +305,7 @@ footer section.left
 {
     display: flex;
     flex-direction: column;
-    margin-right: 1rem ;
+    margin-right: 0rem ;
     
 }
 footer section.left a  {
