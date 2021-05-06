@@ -144,6 +144,7 @@ section.nosotros article {
 	white-space: nowrap;
 	font-size: 0;
 	transition: 0.8s;
+    margin-top: 2rem;
 }
 
 /* SLIDES */
@@ -259,10 +260,12 @@ opacity: .7;}
    All above was mainly to get it working :)
    CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
+
+
 .CSSgal{
 	color: #fff;	
 	text-align: center;
-    height: 580px;
+    height: 550px;
     width: 100%;
 }
 .CSSgal .slider h2 {
@@ -414,6 +417,10 @@ section.right a {
         display: flex;
         margin: 0;
         
+    }
+    .contenedor-slideshow {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
     footer {
         padding: 1rem 3rem;
