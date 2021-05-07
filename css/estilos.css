@@ -8,7 +8,7 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 body {
-    min-width: 280px;
+    min-width: 20px;
     width: 100%;
 }
 header {
@@ -23,11 +23,11 @@ div.logo {
 }
 div.logo img {
     width: 350px;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 360px;
     margin: 1.5rem auto;
     border-radius: 3rem;
-    display: block;
+    padding: 2.5rem;
     
 }
 nav {
@@ -60,7 +60,6 @@ nav li
 }
 nav .social {
     width: 30%;
-    min-width: 240px;
     height: 4rem;
     
     
@@ -293,6 +292,7 @@ section.right a {
         height: 4rem;
         
     }
+    
         
     nav ul li a.social:hover {
         width: 100%;
