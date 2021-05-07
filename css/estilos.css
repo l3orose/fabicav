@@ -104,8 +104,7 @@ section.presentacion div.boton {
     display: flex;
     align-content: center;
     justify-content: center;
-    
-                     
+                
 }
 
 section.presentacion div.boton a  {
@@ -227,7 +226,15 @@ section.right a {
     nav .social {
         width: 30%;
         height: 4rem;
-       
+    }
+    nav .social img {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;   
+    }
+    nav ul li.social {
+        display: flex;
+        justify-content: space-between;
     }
     section h1{
         font-size: 4rem;
