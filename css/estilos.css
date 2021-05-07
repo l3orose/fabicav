@@ -163,7 +163,7 @@ footer {
     display: grid;
     grid-template-columns: 48% 52%;
     height: 22rem;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1.8rem;
     min-width: 380px;
     width: 100%;
@@ -174,7 +174,7 @@ footer section.left
 {
     display: flex;
     flex-direction: column;
-    margin-right: 0rem ;
+    
     
 }
 footer section.left a  {
@@ -283,7 +283,7 @@ section.right a {
     nav ul li a {
         color: #043b7b;
         display: block;
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-right: 1rem;
         font-weight: normal;
         
