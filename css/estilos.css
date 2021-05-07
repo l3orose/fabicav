@@ -8,7 +8,7 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 body {
-    min-width: 310px;
+    min-width: 280px;
     width: 100%;
 }
 header {
@@ -23,11 +23,11 @@ div.logo {
 }
 div.logo img {
     width: 350px;
-    min-width: 250px;
+    min-width: 200px;
     max-width: 360px;
     margin: 1.5rem auto;
     border-radius: 3rem;
-    padding: 2.5rem;
+    display: block;
     
 }
 nav {
@@ -60,8 +60,9 @@ nav li
 }
 nav .social {
     width: 30%;
+    min-width: 240px;
     height: 4rem;
-    margin: 0%;
+    
     
 }
 nav .social img {
@@ -161,11 +162,10 @@ section.nosotros article {
 footer {
     background-color: #224f70;
     display: grid;
-    grid-template-columns: 48% 52%;
+    grid-template-columns: 44% 56%;
     height: 22rem;
-    padding: 1rem;
-    font-size: 1.8rem;
-    min-width: 380px;
+    font-size: 1.6rem;
+    min-width: 280px;
     width: 100%;
     
     
