@@ -194,6 +194,7 @@ section.right {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 1.6rem;
 }
 section.right a {
     color: #75a7e0;
