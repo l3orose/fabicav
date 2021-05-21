@@ -238,8 +238,9 @@ div.img-producto {
     padding: 1rem;
     width: 100%;
 }
-div.img-producto img {
-    border-radius: .5rem;
+figure img{
+    border-radius: 2.5rem;
+    width: 100%;
 }
 
 
